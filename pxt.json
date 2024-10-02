@@ -1,0 +1,28 @@
+{
+    "name": "neopixel-panel",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "neopixel": "github:microsoft/pxt-neopixel#v0.7.6",
+        "pxt-profont": "github:hokarimasahiro/pxt-profont#18a9a5bce9a88874f9373f3d4025a69cecd34b4d",
+        "bit": "github:hokarimasahiro/pxt-bitoperation#1aaa1b128df94a2d18b603d34e2dae3e738ca420"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "7.0.42",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
